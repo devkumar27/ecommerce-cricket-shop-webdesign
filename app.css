@@ -672,6 +672,28 @@ footer {
     footer {
         padding: 50px 10px;
     }
+
+    .productDetails {
+        flex-direction: column;
+    }
+    .proImgs {
+        height: 70%;
+    }
+    .buyNowBtns {
+        flex-direction: column;
+        align-items: center;
+    }
+    .productDetails .proImgs {
+        height: 370px;
+        width: 100%;
+    }
+    .availabilityDiv {
+        flex-direction: column;
+    }
+    .availabilityDiv button,
+    .availabilityDiv input{
+        width: 100%;
+    }
 }
 
 @media (max-width: 425px) {
