@@ -631,6 +631,10 @@ footer {
     border-top: 2px solid #EDF2F4;
 }
 
+.featuredRow a {
+    text-decoration: none;
+}
+
 /* Media Queries */
 @media (max-width: 1441px) {
     .featuredRow {
